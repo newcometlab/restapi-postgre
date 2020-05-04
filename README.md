@@ -37,8 +37,8 @@ INSERT INTO users (name, email)
 ## Installation
 
 ```bash
-git clone git@github.com:taniarascia/node-api-postgres
-cd node-api-postgres
+git clone git@github.com:newcometlab/restapi-postgre
+cd restapi-postgre
 npm install
 node index.js
 ```
@@ -50,9 +50,6 @@ node index.js
 - PUT: `curl -X PUT -d "name=George" -d "email=george@example.com" http://localhost:3000/users/1`
 - DELETE: `curl -X "DELETE" http://localhost:3000/users/1`
 
-## Author
-
-- [Tania Rascia](https://www.taniarascia.com)
 
 ## License
 
